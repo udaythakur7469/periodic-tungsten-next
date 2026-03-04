@@ -27,7 +27,13 @@ export function withAuth<TUser = unknown>(
   handler: AuthenticatedHandler<TUser>,
   options: WithAuthOptions
 ) {
-  const { keyProvider, cookieName = 'auth_token', headerName = 'authorization', issuer, audience } = options;
+  const {
+    keyProvider,
+    cookieName = 'auth_token',
+    headerName = 'authorization',
+    issuer,
+    audience,
+  } = options;
 
   return async function authenticatedHandler(request: NextRequest): Promise<Response> {
     let token: string | undefined;

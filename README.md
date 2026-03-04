@@ -638,8 +638,6 @@ Build complete, production-ready APIs with the Periodic series!
 
 - [Quick Start Guide](QUICKSTART.md)
 - [Installation Guide](INSTALLATION.md)
-- [Setup Guide](SETUP.md)
-- [Project Structure](PROJECT_STRUCTURE.md)
 - [Contributing Guide](CONTRIBUTING.md)
 - [Changelog](CHANGELOG.md)
 

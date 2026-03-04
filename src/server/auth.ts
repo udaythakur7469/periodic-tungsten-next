@@ -24,7 +24,14 @@ export interface AuthContext<TUser = unknown> {
 export async function getServerAuth<TUser = unknown>(
   options: ServerAuthOptions
 ): Promise<AuthContext<TUser>> {
-  const { mode, keyProvider, sessionStorage, cookieName = 'auth_token', issuer, audience } = options;
+  const {
+    mode,
+    keyProvider,
+    sessionStorage,
+    cookieName = 'auth_token',
+    issuer,
+    audience,
+  } = options;
 
   try {
     const cookieStore = cookies();
