@@ -619,14 +619,16 @@ npm run test:watch
 
 Part of the **Periodic** series by Uday Thakur:
 
-- [**@periodic/tungsten**](https://www.npmjs.com/package/@periodic/tungsten) - Authentication primitives (JWT, Argon2, TOTP, HMAC)
+- [**@periodic/tungsten-react**](https://www.npmjs.com/package/@periodic/tungsten-react) - React hooks and components
 - [**@periodic/tungsten-session**](https://www.npmjs.com/package/@periodic/tungsten-session) - Server-side session management
 - [**@periodic/tungsten-client**](https://www.npmjs.com/package/@periodic/tungsten-client) - Browser token state management
-- [**@periodic/tungsten-react**](https://www.npmjs.com/package/@periodic/tungsten-react) - React hooks and components
+- [**@periodic/tungsten**](https://www.npmjs.com/package/@periodic/tungsten) - Authentication primitives (JWT, Argon2, TOTP, HMAC)
 - [**@periodic/iridium**](https://www.npmjs.com/package/@periodic/iridium) - Structured logging
 - [**@periodic/arsenic**](https://www.npmjs.com/package/@periodic/arsenic) - Semantic runtime monitoring
 - [**@periodic/zirconium**](https://www.npmjs.com/package/@periodic/zirconium) - Environment configuration
-- [**@periodic/strontium-next**](https://www.npmjs.com/package/@periodic/strontium-next) - Resilient HTTP for Next.js
+- [**@periodic/vanadium**](https://www.npmjs.com/package/@periodic/vanadium) - Idempotency and distributed locks
+- [**@periodic/strontium**](https://www.npmjs.com/package/@periodic/strontium) - Resilient HTTP client
+- [**@periodic/osmium**](https://www.npmjs.com/package/@periodic/osmium) - Redis caching
 
 Build complete, production-ready APIs with the Periodic series!
 
