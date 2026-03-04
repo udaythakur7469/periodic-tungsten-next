@@ -1,0 +1,16 @@
+src/
+tests/
+examples/
+tsconfig.json
+tsup.config.ts
+jest.config.js
+.eslintrc.js
+.prettierrc
+.github/
+*.test.ts
+*.test.tsx
+coverage/
+.env
+
+PROJECT_STRUCTURE.md
+SETUP.md
